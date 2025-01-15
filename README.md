@@ -14,4 +14,4 @@ Yeah, man! It's that simple!
 
 ## License
 
-MIT - Do whatever you want, I'm not your mom.
+[MIT](LICENSE) - Do whatever you want, I'm not your mom.
