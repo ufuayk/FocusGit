@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "FocusGit",
+  "version": "0.1",
+  "description": "Browser add-on that provides a clean and minimal GitHub interface.",
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/"],
+      "css": ["css/styles.css"]
+    }
+  ]
+}

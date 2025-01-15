@@ -1,0 +1,57 @@
+body, .application-main, .Layout, main, .feed-background, .dashboard,
+.feed-content, .feed-main, .news, .Box, .Box-row, div[class*="feed-item"],
+.js-feed-item-view, .color-bg-default {
+    background-color: #0d1117 !important;
+    border-color: #30363d !important;
+}
+
+.Header, .Header-item, .header-search-button, .AppHeader, .AppHeader-globalBar,
+.AppHeader-localBar, .AppHeader-context-item, .AppHeader-search, .AppHeader-searchButton,
+.AppHeader-button, .AppHeader-user, .color-bg-default, .color-shadow-small {
+    background-color: #0d1117 !important;
+    border-color: #30363d !important;
+    box-shadow: none !important;
+}
+
+.header-search-input, .AppHeader-search-input, .form-control {
+    background-color: #0d1117 !important;
+    border-color: #30363d !important;
+}
+
+.AppHeader { border-bottom: none !important; }
+
+.feed-main, .feed-content, .news {
+    margin: 0 auto !important;
+    padding: 0 !important;
+    max-width: 900px !important;
+    width: 100% !important;
+}
+
+.js-feed-item-view, div[class*="feed-item"], .Box {
+    margin-bottom: 1px !important;
+    padding: 2px 4px !important;
+}
+
+.Box-row, .Box-header, .Box-body {
+    padding: 2px !important;
+    margin: 0 !important;
+}
+
+.feed-left-sidebar, .feed-right-sidebar, aside[aria-label="Account"],
+.dashboard-sidebar, aside[aria-label="Explore"], .dashboard-changelog,
+.js-dashboard-changelog, div[class*="copilot"], [data-catalyst*="copilot"],
+textarea[id*="copilot"], .copilotPreview__container, copilot-dashboard-entrypoint,
+.copilotPreview, .copilotPreview__header, .js-feed-filter-error-toast,
+template[class*="js-feed-filter"], div[class*="feed-filter"],
+.d-flex.flex-justify-between.flex-items-center, div[class="d-block d-md-none"],
+.footer, footer[class*="footer"], .color-footer-muted {
+    display: none !important;
+}
+
+.d-flex.flex-items-center.f4.text-bold, .feed-header, h1, h2, h3 {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+}
+
+.border-bottom, .border-right, .border-left { border: none !important; } /* Test */
